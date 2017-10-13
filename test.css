@@ -1,0 +1,98 @@
+/*
+Gold border for header
+Dotted bottom border for left navigation section
+Links colored when clicked, hovered
+Background opacity lowered
+Display block
+*/
+
+
+#Header {
+	border: solid 8px black;
+	border-color: gold;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	width: 500px;
+	text-align: center;
+}
+
+#LeftNav {
+		border: solid 8px black;
+		border-bottom-style: dotted;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+		float: left;
+		width: 400px;
+		text-align: center;
+		padding-bottom: 8px;
+}
+
+#Content {
+		border: solid 8px black;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+		width: 700px;
+		text-align: center;
+		padding: 15px;
+}
+
+#Footer {
+		border: solid 8px black;
+		text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#Header h1 {
+	font-size: 60px;
+	font-family: "Passion One";
+	color: #FFBC00;
+	font-weight: bold;
+}
+
+p {
+	color: white;
+	font-family: arial;
+}
+
+h3 {
+	color: #FFBC00;
+}
+
+div {
+	background-color: #8E41D5;
+}
+
+body {
+	background-image: url('dark_wood.png');
+	opacity: 0.8;
+    filter: alpha(opacity=70);
+}
+
+a {
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+a:link {
+    background-color: brown;
+}
+
+a:visited {
+    background-color: orange;
+}
+
+a:hover {
+    background-color: red;
+}
+
+a {
+	display: block;
+}
